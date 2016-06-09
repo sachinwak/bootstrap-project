@@ -4,8 +4,9 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Boostrap Test</title>
+	<title>First Project in Reliance</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/custom.css">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -16,11 +17,18 @@
     <![endif]-->
 </head>
 <body>
-	<div class="container-fluid hidden-xs hidden-print clearfix" style="background-color:#F44336;color:#fff;height:200px;">
-	  <h1>Bootstrap Affix Example</h1>
-	  <h3>Fixed (sticky) navbar on scroll</h3>
-	  <p>Scroll this page to see how the navbar behaves with data-spy="affix".</p>
-	  <p>The navbar is attached to the top of the page after you have scrolled a specified amount of pixels.</p>
+	<div class="container-fluid hidden-xs hidden-print clearfix top-header" >
+		<a href="#"><img src="img/reliance.png" alt="Logo Name" class="logo"></a>
+	  	<div class="text-right pull-right">
+	        <i class="fa fa-phone"></i> +44 (0)115 966 7955
+	        <a target="_blank" href="#"><i class="fa fa-user"></i> My Account</a>
+	        <form class="form-inline" action="#" method="get">
+	        	<div class="form-group">
+	                <input class="form-control" type="search" required="" placeholder="Search" name="q">	                
+	        	</div>
+	        	<button class="btn btn-default" name="sa" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+	    </div>
 	</div>
 	
 	<div class="navbar navbar-default navbar-static-top" data-spy="affix" data-offset-top="197" >
@@ -31,7 +39,9 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand visible-xs-block" href="#">Menu</a>
+          <a class="navbar-brand visible-xs-block" href="#">
+          	<img src="img/reliance.png" alt="Logo Name" class="logo">
+          </a>
         </div>
         <div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
@@ -50,22 +60,22 @@
                     <li>
 				        <div class="col-sm-6 col-md-3">
 				          <a href="#" class="thumbnail">
-							<img src="http://placehold.it/150x120" />
+							<img src="img/12text.png" />
 				          </a>
 				        </div>
 				        <div class="col-sm-6 col-md-3">
 						<a href="#" class="thumbnail">
-							<img src="http://placehold.it/150x120" />
+							<img src="img/12text.png" />
 				          </a>
 				        </div>
 				        <div class="col-sm-6 col-md-3">
 						<a href="#" class="thumbnail">
-							<img src="http://placehold.it/150x120" />
+							<img src="img/12text.png" />
 				          </a>
 				        </div>
 				        <div class="col-sm-6 col-md-3">
 				         <a href="#" class="thumbnail">
-							<img src="http://placehold.it/150x120" />
+							<img src="img/12text.png" />
 				          </a>
 					    </div>
 					</li>
@@ -135,58 +145,367 @@
 		</div>
       </div>
     </div>
+	<!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
+			  Indicators
+			  <ol class="carousel-indicators">
+			    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#myCarousel" data-slide-to="1"></li>
+			    <li data-target="#myCarousel" data-slide-to="2"></li>
+			    <li data-target="#myCarousel" data-slide-to="3"></li>
+			  </ol>
+			
+			  Wrapper for slides
+			  <div class="carousel-inner" role="listbox">
+			    <div class="item active">
+			      <img src="img_chania.jpg" alt="Chania">
+			    </div>
+			
+			    <div class="item">
+			      <img src="img_chania2.jpg" alt="Chania">
+			    </div>
+			
+			    <div class="item">
+			      <img src="img_flower.jpg" alt="Flower">
+			    </div>
+			
+			    <div class="item">
+			      <img src="img_flower2.jpg" alt="Flower">
+			    </div>
+			  </div>
+			
+			  Left and right controls
+			  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div> -->
+	<section class="container-fluid hero-homepage">
+		<div class="row aligner text-center">
+			<div class="col-md-6 bg-dark-transparent-1">
+				<h1 class="heading-main">UK Essays</h1>
+	            <p class="heading-sub text-primary">Here To Help You Achieve More</p>
+
+	            <img class="hero-logo" alt="ukessays logo" src="img/reliance.png">
+
+	            <h3>Trusted Academic Writing Services<br>From A Genuine UK Based Company</h3>
+	            <ul class="fa-ul">
+	                <li><i class="glyphicon glyphicon-diamond text-primary"></i> UK Essays offer the highest quality of work - bar none!</li>
+	                <li><i class="glyphicon glyphicon-check text-primary"></i> We guarantee your final grade or your money back</li>
+	                <li><i class="glyphicon glyphicon-heart text-primary"></i> Our staff and writers care about your academic success</li>
+	                <li><i class="glyphicon glyphicon-map text-primary"></i> We are a registered British company based in Nottingham, UK.</li>
+	            </ul>
+
+	            <div class="btn-group">
+	                <button aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" class="btn btn-default btn-bg-transparent btn-lg dropdown-toggle" type="button">
+	                     <span class="hidden-sm hidden-xs">Our main </span>services <span class="caret"></span>
+	                </button>
+	                <ul class="dropdown-menu">
+	                    <li><a href="/services/essay-writing-service.php">Essay Writing Service <i class="glyphicon glyphicon-chevron-right"></i></a></li>
+	                    <li><a href="/services/dissertation-writing-services.php">Dissertation Writing Service <i class="glyphicon glyphicon-chevron-right"></i></a></li>
+	                    <li><a href="/services/essay-writing-service.php?service=coursework">Coursework Writing Service <i class="glyphicon glyphicon-chevron-right"></i></a></li>
+	                    <li><a href="/services/essay-dissertation-proofreading.php">Marking Service <i class="glyphicon glyphicon-chevron-right"></i></a></li>
+	                </ul>
+
+	                <a href="/order/?product=1" class="btn btn-default btn-lg btn-success">Place an order</a>
+	            </div>
+			</div>
+
+			<div class="bg-primary-transparent-1 visible-lg-block visible-md-block col-md-4 col-md-offset-1">
+				<h4>New for 2016!</h4>
+	            <h3>Get the grade from your tutor or your money back</h3>
+	            <p>At UK Essays, every academic writing service that we provide is fully covered by our industry leading Money Back Guarantee.</p>
+
+	            <a href="/guarantees.php" class="btn btn-default btn-bg-transparent btn-lg">Learn more</a>
+			</div>
+		</div>
+	</section>
+	<section class="container-fluid">
+		<div class="row">
+			<ul role="tablist" class="nav nav-tabs text-center">
+		        <li class="tab-bg-1" role="presentation"><a data-toggle="tab" role="tab" aria-controls="essay-services" href="#essay-services" aria-expanded="false">Essay<span class="visible-xs-inline">s</span><span class="hidden-xs"> Services</span></a></li>
+		        <li class="tab-bg-2" role="presentation"><a data-toggle="tab" role="tab" aria-controls="dissertation-services" href="#dissertation-services" aria-expanded="false">Dissertation<span class="visible-xs-inline">s</span><span class="hidden-xs"> Services</span></a></li>
+		        <li class="tab-bg-3" role="presentation"><a data-toggle="tab" role="tab" aria-controls="other-services" href="#other-services" aria-expanded="false">Other<span class="hidden-xs"> Services</span></a></li>
+		        <li class="tab-bg-4 active" role="presentation"><a data-toggle="tab" role="tab" aria-controls="free-resources" href="#free-resources" aria-expanded="true"><span class="hidden-xs">Free </span>Resources</a></li>
+		    </ul>
+		    <div class="tab-content">
+		        <div id="essay-services" class="tab-pane fade" role="tabpanel">
+		            <ul class="list-unstyled">
+		                <li><a href="/services/essay-writing-service.php"><b>Essay Writing Service</b><br>Learn about the benefits and features of our Essay Writing Service.</a></li>
+		                <li><a href="/services/essay-writing-service.php?service=assignment"><b>Assignment Writing Service</b><br>Our Assignment Writing Service can provide tailored work to your specific requirements. </a></li>
+		                <li><a href="/services/essay-writing-service.php?service=coursework"><b>Coursework Writing Service</b><br>Looking for help with your coursework? Learn how UK Essays can help.</a></li>
+		                <li><a href="/services/essay-writing-service.php?service=report"><b>Report Writing Service</b><br>Receive a detailed, well-structured report with our Report Writing Service.</a></li>
+		                <li><a href="/services/essay-writing-service.php?service=skeleton-answer"><b>Essay Skeleton Answer Service</b><br>Receive the perfect outline to your essay question with our Skeleton Answer Service. </a></li>
+		            </ul>
+		        </div>
+
+		        <div id="dissertation-services" class="tab-pane fade" role="tabpanel">
+		            <ul class="list-unstyled">
+		                <li><a href="/services/dissertation-writing-services.php"><b>Dissertation Writing Service</b><br>Receive a fully referenced primary or secondary research dissertation in less than 2 weeks.</a></li>
+		                <li><a href="/services/proposal.php"><b>Dissertation Proposal Service</b><br>Make a great start to your dissertation with our Dissertation Proposal Service.</a></li>
+		                <li><a href="/services/topic-with-titles.php"><b>Topic with Title Service</b><br>Not sure how to get started with your dissertation? Create a great title with our Topic and Title Service.</a></li>
+		                <li><a href="/services/literature-review.php"><b>Literature Review Service</b><br>Get a detailed literature review for your dissertation.</a></li>
+		                <li><a href="/services/dissertation-writing-services.php?service=thesis"><b>Thesis Writing Service</b><br>Completing a PhD? Get help from our expert team to complete your thesis.</a></li>
+		            </ul>
+		        </div>
+
+		        <div id="other-services" class="tab-pane fade" role="tabpanel">
+		            <ul class="list-unstyled">
+		                <li><a href="/services/essay-dissertation-proofreading.php"><b>Marking &amp; Proofreading Service</b><br>Find out more about our Essay and Dissertation Marking Service.</a></li>
+		                <li><a href="/services/lpc-writing-service.php"><b>LPC Service</b><br>Our Legal Practice Coursework Writing Service can help you with the full range of LPC assignments.</a></li>
+		                <li><a href="/services/exam-revision.php"><b>Exam Revision Service</b><br>We can provide custom written notes to compliment your exam revision, maximising your potential exam results.</a></li>
+		                <li><a href="/services/powerpoint-presentation-service.php"><b>PowerPoint Presentation Service</b><br>Every PowerPoint presentation that we provide comes with comprehensive presentation notes.</a></li>
+		                <li><a href="/services/reflective-practice.php"><b>Reflective Practice Service</b><br>Get help reflecting on your experiences with our Reflective Practice Service.</a></li>
+		            </ul>
+		        </div>
+
+		        <div id="free-resources" class="tab-pane fade active in" role="tabpanel">
+		            <ul class="list-unstyled">
+		                <li><a href="/essays/"><b>Free Essays</b><br>With over 300,000 student written essays, you're bound to find some useful information to help with writing an essay.</a></li>
+		                <li><a href="/dissertation/examples/"><b>Free Dissertations</b><br>Students have provided over 2,000 dissertations to assist you in the creation of your own dissertation.</a></li>
+		                <li><a href="/essay-help/"><b>Essay Writing Help</b><br>We provide a range of professionally written resources to help you when writing your essay.</a></li>
+		                <li><a href="/dissertation/"><b>Dissertation Writing Help</b><br>We provide a range of professionally written resources to help you when writing your dissertation.</a></li>
+		                <li><a href="/tools/"><b>Referencing Generators</b><br>Build references quickly and easily for Harvard, APA and Vancouver referencing styles.</a></li>
+		                <li><a href="/finance-ratio-calculator.php"><b>Finance Ratio Calculator</b><br>Calculate financial ratios to gain an understanding of a company's financial status.</a></li>
+		            </ul>
+		        </div>
+
+		        <h4><b>Note:</b></h4>
+		        <p>All of our services are provided by fully qualified writers who hold relevant degrees in the subject they are writing for. We can write for the higher education systems in the UK, Australia and the US, and have writers who are native language speakers in each of these countries.</p>
+		    </div>
+		</div>
+	</section>
 	
-	<div class="container-fluid" style="height:1000px">
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
-		  <!-- Indicators -->
-		  <ol class="carousel-indicators">
-		    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-		    <li data-target="#myCarousel" data-slide-to="1"></li>
-		    <li data-target="#myCarousel" data-slide-to="2"></li>
-		    <li data-target="#myCarousel" data-slide-to="3"></li>
-		  </ol>
+	<section class="container-fluid special-link-bg">
+        <div class="row text-center">
+	        <div class="col-md-12">
+	         	<a class="special-link" href="#">
+		            <h2 class="heading-main">Find Out More About UK Essays</h2>
+		            <p class="text-section-about">Who we are, where we are, why we do it</p>
+		            <span class="btn-square">About UK Essays</span>
+		    	</a>
+	        </div>
+        </div>	    
+	</section>		
+	
+	<section class="container-fluid">
+        <div class="row">
+            <section class="col-md-6 table-column bg-light-1">                
+                <h2 class="heading-main"><span class="text-primary"><b>1</b></span>. Get the grade from your tutor or your money back</h2>
+                <p class="text-primary"><b>Completely New for 2016!</b></p>
+                <p>We guarantee that you will receive the grade that you ordered when your work is marked by your tutor or we will provide you with a full refund for your order.</p>
 
-		  <!-- Wrapper for slides -->
-		  <div class="carousel-inner" role="listbox">
-		    <div class="item active">
-		      <img src="img_chania.jpg" alt="Chania">
-		    </div>
+                <h4>How it works</h4>
+                <ul class="fa-ul guarantees-list">
+                    <li><i class="fa-li glyphicon glyphicon-check-square-o text-primary"></i>Choose your grade when you order</li>
+                    <li><i class="fa-li glyphicon glyphicon-check-square-o text-primary"></i>Follow our <a class="text-primary" href="/fair-use-policy.php">Fair Use Policy</a></li>
+                    <li><i class="fa-li glyphicon glyphicon-check-square-o text-primary"></i>Receive the correct grade from your tutor or we refund you!</li>
+                </ul>
+            </section>
 
-		    <div class="item">
-		      <img src="img_chania2.jpg" alt="Chania">
-		    </div>
+            <div class="col-sm-6 hidden-xs hidden-sm guarantees-right table-column">
+            	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#myCarousel" data-slide-to="1"></li>
+				    <li data-target="#myCarousel" data-slide-to="2"></li>
+				    <li data-target="#myCarousel" data-slide-to="3"></li>
+				  </ol>
 
-		    <div class="item">
-		      <img src="img_flower.jpg" alt="Flower">
-		    </div>
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner" role="listbox">
+					    <div class="item active">				      
+		                    <h3 class="text-primary">1You Can Rest Assured With Our Simple Guarantees</h3>
+		                    <blockquote>
+		                        <h4 class="text">Get the grade from your tutor or your money back</h4>
+		                        <footer>
+		                            <span class="name">New for 2016</span>
+		                        </footer>
+		                    </blockquote>
+					    </div>
 
-		    <div class="item">
-		      <img src="img_flower2.jpg" alt="Flower">
-		    </div>
-		  </div>
+					    <div class="item">
+					      <h3 class="text-primary">2You Can Rest Assured With Our Simple Guarantees</h3>
+		                    <blockquote>
+		                        <h4 class="text">Get the grade from your tutor or your money back</h4>
+		                        <footer>
+		                            <span class="name">New for 2016</span>
+		                        </footer>
+		                    </blockquote>
+					    </div>
 
-		  <!-- Left and right controls -->
-		  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-		    <span class="sr-only">Previous</span>
-		  </a>
-		  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-		    <span class="sr-only">Next</span>
-		  </a>
-		</div>	
-	  <h1>Some text to enable scrolling</h1>
-	  <h1>Some text to enable scrolling</h1>
-	  <h1>Some text to enable scrolling</h1>
-	  <h1>Some text to enable scrolling</h1>
-	  <h1>Some text to enable scrolling</h1>
-	  <h1>Some text to enable scrolling</h1>
-	  <h1>Some text to enable scrolling</h1>
-	  <h1>Some text to enable scrolling</h1>
-	  <h1>Some text to enable scrolling</h1>
-	  <h1>Some text to enable scrolling</h1>
-	  <h1>Some text to enable scrolling</h1>
-	</div>
+					    <div class="item">
+					      <h3 class="text-primary">3You Can Rest Assured With Our Simple Guarantees</h3>
+		                    <blockquote>
+		                        <h4 class="text">Get the grade from your tutor or your money back</h4>
+		                        <footer>
+		                            <span class="name">New for 2016</span>
+		                        </footer>
+		                    </blockquote>
+					    </div>
+
+					    <div class="item">
+					      <h3 class="text-primary">4You Can Rest Assured With Our Simple Guarantees</h3>
+		                    <blockquote>
+		                        <h4 class="text">Get the grade from your tutor or your money back</h4>
+		                        <footer>
+		                            <span class="name">New for 2016</span>
+		                        </footer>
+		                    </blockquote>
+					    </div>
+				  </div>
+
+				  <!-- Left and right controls -->
+				  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+            </div>
+        </div>
+    </section>
+
+	<section class="container-fluid footer-info">
+    	<div class="row">
+            <div class="col-md-6">
+            	<div class="row">
+            		<div class="col-md-6 col-sm-6 col-xs-6">
+						 <a href="tel:+441159667955" ><span class="glyphicon glyphicon-earphone"></span> 0115 966 7955</a>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						 <a href="mailto:enquiries@ukessays.com"><span class="glyphicon glyphicon-envelope"></span>	enquiries@ukessays.com</a>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						 <a href="/contact.php"><span class="glyphicon glyphicon-map-marker"></span> Contact Us</a>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						 <a href="/about.php"><span class="glyphicon glyphicon-info-sign"></span> About Us</a>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						 <a href="/freelance-writing-jobs.php"><span class="glyphicon glyphicon-user"></span> Become a Researcher</a>
+					</div>
+            	</div>   
+            </div>
+			
+            <form class="col-md-6 hidden-xs" action="/search.php" id="searchform" method="get">
+                <input type="hidden" name="cx" value="017611980267021692879:km6yvozpjgu">
+                <input type="hidden" name="cof" value="FORID:11">
+                <div class="input-group">
+                    <input type="search" required="" placeholder="Enter your search terms..." class="form-control" name="q">
+                    <span class="input-group-btn">
+                        <button  name="sa" type="submit" class="btn"><i class="glyphicon glyphicon-search"></i></button>
+                    </span>
+                </div>
+            </form>
+        </div>
+
+		<div class="row">
+            <div class="col-md-3 col-xs-6">Join the conversation
+                <ul class="social list-unstyled">
+                    <li>
+                    	<a target="_blank" title="Join on Facebook" href="#">
+                    	<i class="fa fa-facebook-square fa-3x fb"></i> </a>
+
+                    	<a target="_blank" title="Follow on Twitter" href="#">
+                    	<i class="fa fa-twitter-square fa-3x tw"></i> </a>
+
+                    	<a target="_blank" title="Join on Google+" href="#">
+                    	<i class="fa fa-google-plus-square fa-3x go"></i> </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-xs-6">Services
+                <ul class="list-unstyled">
+                    <li>
+                    	<a href="#">Essay Writing Service <i class="glyphicon glyphicon-chevron-right"></i></a>
+                    </li>
+                    <li>
+                    	<a href="#">Dissertation Writing Service <i class="glyphicon glyphicon-chevron-right"></i></a>
+                    </li>
+                    <li>
+                    	<a href="#">Assignment Writing Service <i class="glyphicon glyphicon-chevron-right"></i></a>
+                    </li>
+                    <li>
+                    	<a href="#">All Services <i class="glyphicon glyphicon-chevron-right"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-xs-6">Useful Tools
+                <ul class="list-unstyled">
+                    <li>
+                    	<a href="#">Referencing Generators <i class="glyphicon glyphicon-chevron-right"></i></a>
+                    </li>
+                    <li>
+                    	<a href="#">Dissertation Help <i class="glyphicon glyphicon-chevron-right"></i></a>
+                    </li>
+                    <li>
+                    	<a href="#">Essay Help <i class="glyphicon glyphicon-chevron-right"></i></a>
+                    </li>
+                    <li>
+                    	<a href="#">Free Resources <i class="glyphicon glyphicon-chevron-right"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-xs-6">Part of All Answers Ltd
+                <ul class="list-unstyled">
+                    <li>
+                    	<a href="#">Referencing Generators <i class="glyphicon glyphicon-chevron-right"></i></a>
+                    </li>
+                    <li>
+                    	<a href="#">Dissertation Help <i class="glyphicon glyphicon-chevron-right"></i></a>
+                    </li>
+                    <li>
+                    	<a href="#">Essay Help <i class="glyphicon glyphicon-chevron-right"></i></a>
+                    </li>
+                    <li>
+                    	<a href="#">Free Resources <i class="glyphicon glyphicon-chevron-right"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid copyright">
+    	<div class="row">
+    		<div class="col-md-12">
+    			<p>Copyright &copy; 2003 - 2016 - UK Essays is a trading name of All Answers Ltd, a company registered in England and Wales. Company Registration No: 4964706. VAT Registration No: 842417633. Registered Data Controller No: Z1821391. Registered office: Venture House, Cross Street, Arnold, Nottingham, Nottinghamshire, NG5 7PJ.</p>
+		        <ul class="hidden-print list-inline">
+		            <li><a rel="nofollow" href="/fair-use-policy.php">Fair Use Policy</a></li>
+		            <li><a rel="nofollow" href="/terms.php">Terms &amp; Conditions</a></li>
+		            <li><a rel="nofollow" href="/privacy-policy.php">Privacy Policy</a></li>
+		            <li><a rel="nofollow" href="/cookie-info.php">Cookies</a></li>
+		            <li><a href="/complaints.php">Complaints</a></li>
+		        </ul>
+    		</div>
+    	</div>
+
+    </section>
+
+	<nav class="global-internal-nav visible-md-block visible-lg-block">
+		<ol class="list-inline">
+			<li><a href="#service-portfolio" title="">Service Portfolio</a></li>
+			<li><a href="#about-uk-essays" title="">About UK Essays</a></li>
+			<li><a href="#guarantees" title="">Guarantees</a></li>
+			<li><a href="#press" title="">Press</a></li>
+			<li class="global-internal-nav-more invisible">
+				<div class="btn-group dropup">
+					<button class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></button>
+					<ul class="dropdown-menu"></ul>
+				</div>
+			</li>
+		</ol>
+	</nav>
 
 
 <script src="js/jquery-1.12.4.min.js"></script>
